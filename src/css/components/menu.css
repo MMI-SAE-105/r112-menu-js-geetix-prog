@@ -74,7 +74,8 @@ body{
 }
 
 .main__container{
-  padding-top: 50px;
+  padding-top: 0px;
+  padding-left: 20px;
 }
 
 .name{
@@ -83,9 +84,39 @@ body{
 
 main h1{
   font-size: 300%;
+  padding-top: 30px;
+}
+
+main h2{
+  font-weight: 100;
 }
 
 main p{
+  padding-top: 10px;
   font-size: 110%;
-  width: 50%;
+}
+
+.img-r {
+  float: right;
+  padding-right: 150px;
+  padding-top: 25px;
+
+}
+
+.texte-gauche{
+  width: 900px;
+  padding-top: 25px;
+}
+
+.liste_menu{
+  padding: 10px;
+}
+
+.ani__item{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.liste_ani{
+  cursor: pointer;
 }
