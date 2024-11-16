@@ -1,6 +1,12 @@
 /* Pour construire le menu en mobile : 
 On construit le menu tel qu'il sera une fois ouvert.
 On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le menu. */
+body{
+  background-color: rgb(241, 241, 241);
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
 .menu {
   position: fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
   background-color: white; /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
@@ -29,18 +35,17 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   position: relative; /* Positionne le bouton par rapport à son conteneur parent */
   z-index: 3; /* Assure que le bouton est au-dessus des autres éléments */
   width: 30px; /* Définit la largeur du bouton à 30px */
+  height: 25px;
   transition: all 0.4s ease-in-out; /* Ajoute une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération */
   border-radius: 10px;
-  padding: center;
   border: none;
   background-color: rgb(211, 0, 169);
   justify-content: center;
-  cursor:pointer
+  cursor: pointer;
 }
 
-.header__menu-btn:hover{
+.menu-btn:hover{
   background-color: rgb(114, 0, 91);
-  
 }
 
 /*
@@ -50,4 +55,37 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   transform: rotate(
     90deg
   ); /* Fait pivoter le bouton de menu de 90 degrés lorsqu'il est en état "expanded" */
+}
+
+.menu__link{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.menu__link:hover{
+  color: gray;
+}
+
+.menu__item{
+  margin-top: 50px;
+}
+
+.main__container{
+  padding-top: 50px;
+}
+
+.name{
+  color: rgb(211, 0, 169);
+}
+
+main h1{
+  font-size: 300%;
+}
+
+main p{
+  font-size: 110%;
+  width: 50%;
 }
