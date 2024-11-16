@@ -30,6 +30,17 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   z-index: 3; /* Assure que le bouton est au-dessus des autres éléments */
   width: 30px; /* Définit la largeur du bouton à 30px */
   transition: all 0.4s ease-in-out; /* Ajoute une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération */
+  border-radius: 10px;
+  padding: center;
+  border: none;
+  background-color: rgb(211, 0, 169);
+  justify-content: center;
+  cursor:pointer
+}
+
+.header__menu-btn:hover{
+  background-color: rgb(114, 0, 91);
+  
 }
 
 /*
