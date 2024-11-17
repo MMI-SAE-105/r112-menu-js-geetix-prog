@@ -66,15 +66,16 @@ body{
 }
 
 .menu__link:hover{
-  color: gray;
+  color: rgb(211, 0, 169);
 }
 
 .menu__item{
   margin-top: 50px;
 }
 
+
 .main__container{
-  padding-top: 0px;
+  padding-top: px;
   padding-left: 20px;
 }
 
@@ -98,13 +99,15 @@ main p{
 
 .img-r {
   float: right;
+  width: 30%;
   padding-right: 150px;
+  height: auto;
   padding-top: 25px;
-
+  margin-left: 100px;
 }
 
 .texte-gauche{
-  width: 900px;
+
   padding-top: 25px;
 }
 
@@ -112,11 +115,11 @@ main p{
   padding: 10px;
 }
 
-.ani__item{
+.liste__item{
   margin-top: 10px;
-  cursor: pointer;
 }
 
-.liste_ani{
-  cursor: pointer;
+#para__end{
+  padding-top: 50px;
+  
 }
