@@ -3,8 +3,7 @@ On construit le menu tel qu'il sera une fois ouvert.
 On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le menu. */
 body{
   background-color: rgb(241, 241, 241);
-  padding-left: 25px;
-  padding-top: 25px;
+  padding: 30px;
 }
 
 .menu {
@@ -61,8 +60,9 @@ body{
   text-decoration: none;
   color: black;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 50px;
   padding-left: 5px;
+  color: rgb(211, 0, 169);
 }
 
 .menu__link:hover{
@@ -70,7 +70,8 @@ body{
 }
 
 .menu__item{
-  margin-top: 50px;
+  margin-top: 0px;
+  list-style-type: none;
 }
 
 
@@ -95,6 +96,11 @@ h3{
 }
 
 p{
+  padding-top: 10px;
+  font-size: 110%;
+}
+
+.intro__para{
   padding-top: 10px;
   font-size: 110%;
 }
@@ -143,4 +149,30 @@ p{
 .container__3{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.section__container a{
+  color: rgb(211, 0, 169);
+}
+
+.section__container li{
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.content__container{
+  margin-top: 50px;
+}
+
+.content__para{
+  padding-left: 20px;
+}
+
+.content__item{
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.content__list{
+  padding-left: 70px;
 }

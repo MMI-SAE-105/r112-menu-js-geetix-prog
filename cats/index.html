@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liste des chats</title>
+    <title>Les chats</title>
     <link rel="stylesheet" href="/src/css/components/menu.css" />
     <script type="module" src="/src/js/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header container">
 
         <div class="header__end">
@@ -31,14 +31,17 @@
       <main>
         <h1 class="title">Bienvenue dans la partie entièrement consacré à nos amis <span class="name">les chats</span></h1>
         <div class="main__container__cats">
-        <p class="para">Plongez dans l'univers fascinant des chats ! Ci-dessous, vous trouverez des informations captivantes pour en apprendre
+          <p class="main__para">Plongez dans l'univers fascinant des chats ! Ci-dessous, vous trouverez des informations captivantes pour en apprendre
           davantage sur ces adorables compagnons. Explorez également notre banque d'images dédiée aux chats pour découvrir des photos
           inspirantes et mignonnes. 🐾</p>
-          <ul class="list__cats">
-            <li class="cats__item"><a href="/cats/chat_un.html">En savoir plus sur les chats</a></li>
-            <li class="cats__item"><a href="https://commons.wikimedia.org/w/index.php?search=Cats&title=Special:MediaSearch&go=Go&type=image">Accéder à une banque d'image en ligne</a></li>
-          </ul>          
+
+          <nav class="section__container" aria-hidden="true">
+            <ul class="list__section">
+              <li class="list__item"><a class="list__link" href="/cats/chat_un.htm">En savoir plus sur les chats</a></li>
+              <li class="list__item"><a class="list__link" href="https://commons.wikimedia.org/w/index.php?search=Cats&title=Special:MediaSearch&go=Go&type=image">Accéder à une banque d'image en ligne</a></li>
+            </ul>
+          </nav>      
         </div>
       </main>
-</body>
+  </body>
 </html>
